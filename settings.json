@@ -6,7 +6,7 @@
     "type": "online"
   },
   "server": {
-    "ip": "S3RV3R11.aternos.me:23344",
+    "ip": "S3RV3R11.aternos.me",
     "port": 23344,
     "version": "1.21.11"
   },
