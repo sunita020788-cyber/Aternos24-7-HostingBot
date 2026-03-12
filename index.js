@@ -1,4 +1,9 @@
-'use strict';
+const http = require('http');
+http.createServer((req, res) => {
+  res.write("Bot is online!");
+  res.end();
+}).listen(process.env.PORT || 10000);
+Use code with caution.'use strict';
 
 const mineflayer = require('mineflayer');
 const { Movements, pathfinder, goals } = require('mineflayer-pathfinder');
